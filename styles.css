@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(300, 24%, 70%);
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#title, #description {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+fieldset {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    border: 0px solid #333;
+    border-radius: 5px;
+    background-color: hsla(241, 76%, 53%, 0.397);
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+label {
+    text-align: left;
+    display: block;
+    padding: 4%;
+    font-size: 1.5rem;
+    border-style: solid;
+}
+
+input
+#basic-info {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
