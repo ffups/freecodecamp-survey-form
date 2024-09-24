@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>
+  </title>
+</head>
+
+<body>
+<div class="main">
+  <h1 id="title">Forms on Forms on Forms</h1>
+  <p id="description">This is a form innit</p>
+  <fieldset>
+    <legend>Basic info</legend>
+    <form id="survey-form">
+
+      <label id="name-label">Name <input required id="name" type="text" placeholder="Enter your name"></label>
+      <label id="email-label">Email <input required id="email" type="email" placeholder="Enter your email"></label>
+      <label id="number-label">Number <input min="7" max="11" id="number" type="number" placeholder="Enter your number"></label>
+      <label>Where did you hear from us
+  <select id="dropdown">
+    <option>friend</option>
+    <option>foe</option>
+    <option>fam</option>
+    <option>florgle</option>
+    </select>
+    <label>Did you drop my croissant?
+      <input checked value="1" type="radio" name="croissant">Yes</input> 
+      <input value="2" type="radio" name="croissant">No</input>
+  </label>
+<label>Do you wear wigs? <input type="checkbox" value="3">Yes I wear wigs<input type="checkbox" value="4">I will wear wigs</label>
+<label>
+  <textarea>Additional comments</textarea>
+  </label>
+<label>
+      <input type="submit" value="Submit" id="submit">
+  </label>
+  </fieldset>
+  </form>
+  </div>
+</body>
+<footer>
+</footer>
+
+</html>
