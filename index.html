@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
-  <title>Ffups form
-    </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ffups form</title>
 </head>
 
 <body>
@@ -17,28 +17,31 @@
 
 <form id="survey-form">
 
-        <label id="name-label">Name <input required id="name" type="text" placeholder="Enter your name"></label>
-        <label id="email-label">Email <input required id="email" type="email" placeholder="Enter your email"></label>
-        <label id="number-label">Number <input min="7" max="11" id="number" type="number"
+        <label id="name-label">Name <input class="input" required id="name" type="text" placeholder="Enter your name"></label>
+        <label id="email-label">Email <input class="input" required id="email" type="email" placeholder="Enter your email"></label>
+        <label id="number-label">Number <input class="input" min="7" max="11" id="number" type="number"
             placeholder="Enter your number"></label>
         <label>Where did you hear from us
-          <select id="dropdown">
-            <option>friend</option>
+          <select class="input" id="dropdown">
+            <option disabled selected="true">select option</option>
             <option>foe</option>
             <option>fam</option>
             <option>florgle</option>
           </select>
-          <label>Did you drop my croissant?
+        </label>
+        <div class="radio-container">
+          <label class="drop">Did you drop my croissant?</label>
             <input checked value="1" type="radio" name="croissant">Yes</input>
             <input value="2" type="radio" name="croissant">No</input>
-          </label>
+          
+        </div>
           <label>Do you wear wigs? <input type="checkbox" value="3">Yes I wear wigs<input type="checkbox" value="4">I
             will wear wigs</label>
           <label>
-            <textarea>Additional comments</textarea>
+            <textarea class="input" placeholder="Additional comments"></textarea>
           </label>
           <label>
-            <input type="submit" value="Submit" id="submit">
+            <input class="input" type="submit" value="Submit" id="submit">
           </label>
     </fieldset>
     </form>
